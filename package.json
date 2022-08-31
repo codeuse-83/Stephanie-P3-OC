@@ -1,0 +1,20 @@
+{
+  "name": "stephanie-p4-oc",
+  "version": "1.0.0",
+  "description": "*Compétences évaluées*",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass --watch ./sass/main.scss:./public/css/style.css --styles compressed"
+    
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/codeuse-83/Stephanie-P4-OC.git"
+  },
+  "author": "Stéphanie",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/codeuse-83/Stephanie-P4-OC/issues"
+  },
+  "homepage": "https://github.com/codeuse-83/Stephanie-P4-OC#readme"
+}
