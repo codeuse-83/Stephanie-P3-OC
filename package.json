@@ -1,5 +1,5 @@
 {
-  "name": "stephanie-p4-oc",
+  "name": "stephanie-p3-oc",
   "version": "1.0.0",
   "description": "*Compétences évaluées*",
   "main": "index.js",
@@ -9,12 +9,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/codeuse-83/Stephanie-P4-OC.git"
+    "url": "git+https://github.com/codeuse-83/Stephanie-P3-OC.git"
   },
   "author": "Stéphanie",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/codeuse-83/Stephanie-P4-OC/issues"
+    "url": "https://github.com/codeuse-83/Stephanie-P3-OC/issues"
   },
-  "homepage": "https://github.com/codeuse-83/Stephanie-P4-OC#readme"
+  "homepage": "https://github.com/codeuse-83/Stephanie-P3-OC#readme"
 }
