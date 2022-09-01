@@ -1,5 +1,5 @@
 .btn{
-    @include btn-about;
+    @include btn;
     &:hover {
       background-color: lighten(#9356dc, 10%);
       background-blend-mode: lighten;
