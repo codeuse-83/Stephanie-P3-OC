@@ -1,1 +1,26 @@
-
+/* animaton loading spinner pages d'accueil */
+@keyframes loading_spinner {
+    from {
+        transform:translateY(-20px);
+        opacity: 1;
+  }
+  to {
+    transform: translateY(20px);
+    opacity: 0.5;
+  }
+}
+@keyframes background_loading {
+    from {
+        opacity: 1;
+        position: fixed;
+        background-color: white;
+        top: 0px;
+        z-index: 200;
+    }
+    to {
+        opacity: 1;
+        background-color: white;
+        top: 0;
+        z-index: 200;
+    }
+}

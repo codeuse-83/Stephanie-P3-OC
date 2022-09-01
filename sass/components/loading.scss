@@ -1,1 +1,44 @@
+/*loading spinner*/
+.loadingspinner {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    animation: 2s background_loading backwards;
+    position: absolute;
+    top: -1000px;
+    opacity: 0;
+    div {
+        font-size: 30px;
+        animation: loading_spinner 0.4s infinite alternate-reverse both;
+        animation-timing-function: ease-out;
+    }
+}
+.spinner1{
+    animation-delay: 0s;
+    color: $couleur_primaire;
+}
+.spinner2{
+    animation-delay: 0.2s;
+    color: $couleur_secondaire;
+}
+.spinner3{
+    animation-delay: 0.4s;
+    color: $couleur_tertiaire;
+}
+.spinner4{
+    animation-delay: 0.6s;
+    color: $couleur_primaire;
+}
+.spinner5{
+    animation-delay: 0.8s;
+    color: $couleur_secondaire;
+}
+.spinner6{
+    animation-delay: 1s;
+    color: $couleur_tertiaire;
+}
 
+
+/*fin loading spinner*/
