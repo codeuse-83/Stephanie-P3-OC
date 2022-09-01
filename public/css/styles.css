@@ -215,7 +215,7 @@
     border: 0;
     cursor: pointer;
     margin-bottom: 50px;
-    font-size: 18px;
+    font-size: 15px;
   }
   .en_tete button:hover {
     background-color: #ae80e5;
@@ -451,7 +451,7 @@
   
   @media screen and (min-width: 426px) {
     .en_tete button {
-      width: 50%;
+      width: 215px;
     }
     .liste_restaurants {
       width: 100%;
