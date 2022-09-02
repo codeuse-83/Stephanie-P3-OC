@@ -1,0 +1,140 @@
+.ligne1{
+    display: flex;
+    .retour_accueil{
+        text-decoration: none;
+        color: black;
+        font-size: 20px;
+        margin-left: 4%;
+    }
+}
+.photo_page_restaurant{
+    width: 100%;
+    height: 250%;
+    object-fit: cover;
+}
+.logo_menus{
+    width: 90%;
+    text-align: center;
+    img{
+        width: 50%;
+    }
+}
+.menu_restaurant{
+    background-color: $background_color;
+    border-radius: 30px 30px 0 0;
+    position: relative;
+    top: -50px;
+    padding-right: 5%;
+    padding-left: 5%;
+    margin-bottom: -50px;
+    .ligne1_menu{
+        display: flex;
+        justify-content: space-between;
+        height: 45px;
+        padding-top: 15px;
+        align-items: center;
+        padding-right: 2%;
+        padding-right: 2%;
+        h1{
+            font-family: shrikhand;
+            font-size: 25px;
+        }
+        .coeur_vide_menu{
+            @include coeur_vide;
+            font-size: 20px;
+            position:absolute;
+            right: 40px;
+        }
+        .coeur_plein_menu{
+            @include coeur_plein;
+            position: absolute;
+            font-size: 20px;
+            right: 40px;
+        }
+    }
+    h2{
+        margin: 0;
+        font-size: 17px;
+        margin-top: 30px;
+    }
+    .border_titre{
+        border-bottom: solid $couleur_tertiaire;
+        margin-bottom: 18px;
+        margin-top: 5px;
+        width: 42px;
+        border-width: 3px;
+    }
+}
+.etiquette_menu{
+    background-color: rgb(255, 255, 255);
+    border-radius: 15px;
+    box-shadow: $box-shadow_vignettes;
+    margin-bottom: 20px;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 7px;
+    line-height: 25px;
+    animation: apparition_menu 2s 0.5s;
+    opacity: 0;
+    animation-fill-mode: both;
+    overflow: hidden;
+    align-items: center;
+    cursor: pointer;
+    &:hover > .check{
+        transform: translateX(0px);
+        width: 30%;
+        i{
+            transform: rotate(360deg);
+        }
+    }
+    .descriptif_menu{
+        width: 82%;
+        display: flex;
+        flex-direction: column;
+        @include overflow_menu;
+        span{
+            @include overflow_menu;
+        }
+        :nth-child(1){
+            font-weight: 900;
+        }      
+    }
+    .prix{
+        height: 70%;
+        display: flex;
+        align-items: flex-end;
+        justify-content: center;
+        width: 15%;
+        font-weight: 900;
+    }
+    .check{
+        width: 0;
+        height: 70px;
+        background-color: $couleur_tertiaire;
+        transform: translateX(230px);
+        transition: transform 0.7s ease-in-out, width 0.7s ease-in-out;
+        border-radius: 0 15px 15px 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        i{
+            color: white;
+            font-size: 30px;
+            transform: rotate(0);
+            transition: transform 0.7s 0.2s ease-in-out;
+        }
+    }
+}
+.bouton_commande{
+    text-align: center;
+    margin-top: 50px;
+    button{
+        @include button;
+        align-self: center;
+        &:hover{
+            background: $background_button_hover;
+            box-shadow: $box-shadow_hover;
+        }
+    }  
+}
