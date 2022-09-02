@@ -169,6 +169,7 @@
   }
   .logo_container img {
     width: 23%;
+    margin-top: 23px;
   }
   
   .barre_recherche {
