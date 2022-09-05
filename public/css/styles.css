@@ -1,21 +1,15 @@
 @font-face {
   font-family: "robotoregular";
-  src: url("Roboto-Regular-webfont.eot");
-  font-weight: normal;
-  font-style: normal;
+  src: url("../font/roboto/Roboto-Regular.ttf") format("truetype");
+
 }
 @font-face {
   font-family: "shrikhand";
-  src: url("Shrikhand-Regular.otf");
+  src: url("../font/shrikhand/shrikhand.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
 }
-* {
-  font-family: robotoregular;
-}
-  body {
-    margin-left: auto;
-    margin-right: auto;
-    width: 100%;
-  }
+
   
   *,
   *::after,
@@ -91,11 +85,11 @@
   }
 
   .shrikhand {
-    font-family: "Shrikhand", cursive;
+    font-family: "Shrikhand";
   }
   
   .roboto {
-    font-family: "Roboto", Arial, sans-serif;
+    font-family: "Roboto";
   }
   
 
@@ -341,9 +335,13 @@
     color: black;
     background-color: #f2eafb;
   }
-  .fonctionnement_listt:hover .fonctionnement_icon {
+  .fonctionnement_listt:hover .fonctionnement_icon > i {
     color: #6c27be;
   }
+
+.fonctionnement_list:hover .fonctionnement_icon  {
+  color: #9356dc;
+}
   .fonctionnement_icon {
     padding: 0.5rem 1.3rem 0.5rem 0.5rem;
     font-size: 1rem;
@@ -720,7 +718,7 @@
     }
   }
   footer h3 {
-    font-family: "Shrikhand", "sans-serif";
+    font-family: "Shrikhand";
     padding: 5px 0 20px 0;
   }
   
