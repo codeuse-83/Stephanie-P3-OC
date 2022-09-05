@@ -455,13 +455,14 @@
   }
   .etiquette_restaurant a .new {
     background-color: #99E2D0;
-    font-weight: 700;
+    font-weight: 600;
     color: #048A69;
     width: auto;
     position: absolute;
-    top: 15px;
-    right: 15px;
-    font-size: 12px;
+    top: 1.3rem;
+    right: 1.1rem;
+    font-size: 1.1rem;
+    padding: 0.5rem;
   }
   .etiquette_restaurant a .photo_restaurant {
     width: 100%;
