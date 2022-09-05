@@ -1,16 +1,4 @@
-@font-face {
-  font-family: "robotoregular";
-  src: url("../font/roboto/Roboto-Regular.ttf") format("truetype");
 
-}
-@font-face {
-  font-family: "shrikhand";
-  src: url("../font/shrikhand/shrikhand.woff2") format("woff2");
-  font-weight: normal;
-  font-style: normal;
-}
-
-  
   *,
   *::after,
   *::before {
@@ -404,6 +392,7 @@
     color: black;
     font-size: 15px;
     margin: 0;
+    Font-family: "Roboto";
   }
   .etiquette_restaurant a .container_descriptif .coeur_vide {
     font-size: 25px;
@@ -535,6 +524,7 @@
       padding-left: 5%;
       margin-bottom: -50px;
       position: relative;
+      Font-family: "Roboto";
     
      
     }
@@ -628,6 +618,7 @@
       overflow: hidden;
       text-overflow: ellipsis;
       white-space: nowrap;
+      font-family: "Roboto";
     }
     .etiquette_menu .descriptif_menu :nth-child(1) {
       font-weight: 900;
