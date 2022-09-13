@@ -378,7 +378,7 @@ h1 {
   transition-property: opacity;
 }
 .etiquette_restaurant a .container_descriptif .coeur_plein:hover {
-  background-image: linear-gradient(#9356DC, #FF79DA);
+  background: linear-gradient(#9356DC, #FF79DA);
   opacity: 1;
   -webkit-background-clip: text;
 }
@@ -397,12 +397,12 @@ h1 {
   right: 5.5px;
 }
 .etiquette_restaurant a .container_descriptif .coeur_plein_new:hover {
-  background-image: linear-gradient(#9356DC, #FF79DA);
+  background: linear-gradient(#9356DC, #FF79DA);
   opacity: 1;
   -webkit-background-clip: text;
 }
 .etiquette_restaurant a .container_descriptif .coeur_plein_new:hover {
-  background-image: linear-gradient(#9356DC, #FF79DA);
+  background: linear-gradient(#9356DC, #FF79DA);
   opacity: 1;
   -webkit-background-clip: text;
 }
@@ -517,7 +517,7 @@ h1 {
   border-radius: 15px;
   box-shadow: 0px 6px 10px #DDDDDD;
   margin-bottom: 20px;
-  height: 70px;
+  height: 60px;
   display: flex;
   justify-content: space-between;
   padding-left: 7px;
@@ -533,7 +533,7 @@ h1 {
 }
 .etiquette_menu:hover > .check {
   transform: translateX(0px);
-  width: 30%;
+  width: 13%;
 }
 .etiquette_menu:hover > .check i {
   transform: rotate(360deg);
@@ -569,7 +569,7 @@ h1 {
   height: 70px;
   background-color: #99E2D0;
   transform: translateX(230px);
-  transition: transform 0.7s ease-in-out, width 0.7s ease-in-out;
+  transition: transform 0.6s ease-in-out, width 0.9s ease-in-out;
   border-radius: 0 15px 15px 0;
   display: flex;
   justify-content: center;
@@ -577,9 +577,9 @@ h1 {
 }
 .etiquette_menu .check i {
   color: white;
-  font-size: 30px;
+  font-size: 40px;
   transform: rotate(0);
-  transition: transform 0.7s 0.2s ease-in-out;
+  transition: transform 0.6s 0.2s ease-in-out;
 }
 
 .bouton_commande {

@@ -1,1 +1,35 @@
+@mixin button {
+    background: $background_button;
+    box-shadow: $box-shadow_etiquette;
+    color: white;
+    height: 45px;
+    width: 35%;
+    border-radius: 50px;
+    border: 0;
+    cursor: pointer;
+    margin-bottom: 50px;
+    font-size: 15px;
+}
 
+@mixin coeur_vide{
+    font-size: 25px;
+    color: black;
+}
+@mixin coeur_plein{
+    font-size: 25px;
+    color: transparent;  
+    opacity: 0;
+    transition-duration: 0.4s;
+    transition-property: opacity;
+    &:hover{
+        background: linear-gradient($couleur_primaire, $couleur_secondaire);
+        opacity: 1;
+        -webkit-background-clip: text;
+    }
+}
+
+@mixin overflow_menu{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
