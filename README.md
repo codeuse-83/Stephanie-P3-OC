@@ -10,7 +10,7 @@
 
 *Page d'accueil*
 
-Affichage de la localisation des restaurants.  À terme il sera possible de choisir sa localisation pour trouver des restaurants proches d’un certain lieu.
+Affichage de la localisation des restaurants. À terme il sera possible de choisir sa localisation pour trouver des restaurants proches d’un certain lieu.
 Une courte présentation de l’entreprise.
 Une section contenant les 4 menus sous forme cartes.  Au clic sur la carte, l’utilisateur est redirigé vers la page du menu.
 ---------------------------------------------------------------------------------------------------------------------------------------------------------
