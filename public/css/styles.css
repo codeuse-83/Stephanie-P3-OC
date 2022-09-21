@@ -630,7 +630,6 @@ h1 {
   }
 }
 
-<<<<<<< HEAD
 @media screen and (min-width: 370px) {
   footer {
     display: block;
@@ -645,22 +644,10 @@ h1 {
 }
  
   @media screen and (min-width: 768px) {
-=======
-   
-  @media screen and (min-width: 370px) {
->>>>>>> cfc549c49cc92372ff5042903094be73042ece82
     footer {
-      display: block;
-      background-color: #353535;
-      margin: 0;
-      padding: 0;
-      font-size: 100%;
-      vertical-align: baseline;
-      padding: 25px;
-      color: white;
+      text-align: center;
     }
   }
-<<<<<<< HEAD
   footer h3 {
     font-family: "Shrikhand" ;
     padding: 5px 0 20px 0;
@@ -691,50 +678,6 @@ h1 {
   .fa-utensils {
     padding-right: 5px;
   }
-}
-
-
-  
-
-=======
-   
-    @media screen and (min-width: 768px) {
-      footer {
-        text-align: center;
-      }
-    }
-    footer h3 {
-      font-family: "Shrikhand" ;
-      padding: 5px 0 20px 0;
-    
-    }
-  
-    footer a {
-      color: white;
-      text-decoration: none;
-    }
-    footer ul {
-      list-style-type: none;
-    }
-    footer ul li {
-      padding: 5px 0 5px 0;
-    }
-    footer ul .fa-utensils {
-      margin-right: 12px;
-    }
-    footer ul .fa-hands-helping {
-      margin-right: 5px;
-    }
-    
-    .fa-handshake {
-      transform: rotate(-45deg);
-    }
-    
-    .fa-utensils {
-      padding-right: 5px;
-    }
-  }
->>>>>>> cfc549c49cc92372ff5042903094be73042ece82
 
   
 
